@@ -19,4 +19,6 @@ store.dispatch(
   tasksAdd({ id: 3, title: "task #3", assignee: "Mahmoud", status: "Assigned" })
 );
 
+store.dispatch(tasksAdd({ id: 4, title: "task #4" }));
+
 store.dispatch(tasksUpdate({ id: 1, status: "InProgress" }));
